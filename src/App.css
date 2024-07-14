@@ -1,0 +1,58 @@
+.App-header{
+
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 10px 10px ;
+}
+
+.searchbox{
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+
+.news-box{
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.news-box h4{
+
+font-size: 1rem;
+
+}
+
+.news-box p{
+
+  font-size: 0.8rem;
+  
+}
+
+.news-box img{
+  width: 100%;
+  height: 150px;
+  background-color: violet;
+  border-radius: 5px;
+
+  
+  
+}
+
+
+
+
+.news-list{
+  
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
